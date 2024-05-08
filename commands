@@ -1,0 +1,218 @@
+1  sudo apt update
+    2  sudo nano /etc/resolv.conf 
+    3  sudo apt update
+    4  sudo apt upgrade
+    5  sudo apt install gcc++
+    6  sudo apt install gcc
+    7  sudo apt install build-essentials
+    8  sudo apt install build-essential
+    9  sudo apt install gdb
+   10  init 0
+   11  gcc --version
+   12  cd "/home/rps/Desktop/C Demo/" && gcc first.c -o first && "/home/rps/Desktop/C Demo/"first
+   13  sudo su
+   14  tar xvfz node_exporter-1.7.0.linux-amd64.tar.gz 
+   15  cd node_exporter-1.7.0.linux-amd64/
+   16  sudo mv node_exporter /usr/local/bin/
+   17  sudo tee /etc/systemd/system/node_exporter.service<<EOF
+   18  [Unit]
+   19  Description=Node Exporter
+   20  After=network.target
+   21   
+   22  [Service]
+   23  User=rps
+   24  Group=rps
+   25  Type=simple
+   26  ExecStart=/usr/local/bin/node_exporter
+   27   
+   28  [Install]
+   29  WantedBy=multi-user.target
+   30  EOF
+   31  sudo systemctl daemon-reload
+   32  sudo systemctl start node_exporter
+   33  sudo systemctl enable node_exporter
+   34  sudo systemctl status node_exporter
+   35  sudo apt install gcc
+   36  sudo apt install git
+38  sudo apt install vim
+   39  sudo apt install g++
+   40  sudo apt install gedit
+   41  sudo apt install cmake
+   42  sudo apt install g++
+   43  cd
+   44  sudo apt update -y
+   45  sudo apt install mysql-server
+   46  sudo systemctl status mysql.service 
+   47  sudo mysql
+   48  sudo mysql_secure_installation
+   49  sudo mysql
+   50  sudo mysql_secure_installation
+   51  sudo mysql -u root -p
+   52  sudo snap install mysql-workbench-community
+   53  man
+   54  man pwd
+   55  mkdir wipro
+   56  cd wipro
+   57  pwd
+   58  man pwd
+   59  mkdir linux
+   60  cd linux
+   61  man cd
+   62  man pwd
+   63  pwd -L
+   64  pwd -P
+   65  pwd --help
+   66  pwd --version
+   67  cd ..
+   68  man cd
+   69  cd --help
+   70  clear
+   71  cd Desktop
+   72  mkdir F1
+   73  cd F1
+   74  touch first second third
+   75  ls
+   76  cat >first.txt
+   77  cat >second.txt
+   78  cat >third.txt
+   79  cd ..
+   80  cp -r F1 ~/Downloads
+   81  cd ..
+   82  cd Downloads
+   83  ls
+   84  cd F!
+   85  cd F1
+   86  ls
+   87  man -r
+   88  man r
+   89  tldr
+   90  sudo apt install tldr
+   91  sudo snap install tldr
+   92  clear
+   93  man ls
+   94  man man
+   95  ls
+   96  cd Download
+   97  cd Downloads
+   98  ls
+   99  ls /F1
+  100  pwd
+  101  lshome/rps/Downloads/F1
+  102  ls home/rps/Downloads/F1
+  103  cd .
+  104  cd ..
+  105  ls /bin
+  106  ls -al
+  107  ls l
+  108  ls -l
+  109  ln -a
+  110  ln a
+  111  mkdir fruits
+  112  mkdir cars
+  113  cd fruits
+  114  cd ../cars
+  115  cd .
+  116  cd /fruits
+  117  pwd
+  118  cd /home/rps/fruits
+  119  mkdir folder1 folder2 
+  120  cd folder1
+  121  cd folder2
+  122  cd ../foler2
+  123  cd ../folder2
+  124  mkdir -p fruits/apple
+  125  cd ..
+  126  mkdir odisha/bbsr/khurdha
+  127  mkdir odisha/bbsr
+  128  mkdir odisha
+  129  mkdir odisha/bbsr
+  130  mkdir odisha/bbsr/khurdha
+  131  rmdir -rf fruits 
+  132  rm -rf fruits 
+  133  rmdir cars
+  134  mkdir fruits
+  135  touch apple pears
+  136  mv apple pears fruits
+  136  mv apple pears fruits
+  137  mkdir cars
+  138  cp -r fruits cars
+  139  open fruits
+  140  open Desktop
+  141  open .
+  142  open ..
+  143  touch apple
+  144  ls -l
+  145  ln apple.txt linkapple.txt
+  146  ln fruits.txt newfruits.txt
+  147  cd fruits
+  148  ln fruits.txt pears.txt
+  149  ln apple.txt pears.txt
+  150  history
+  151  clear
+  152  cd ..
+  153  clear
+  154  sudo passwd root
+  155  clear
+  156  sudo passwd root
+  157  pwd
+  158  sudo whoami
+  159  su -
+  160  traceroute www.google.com
+  161  sudo apt install traceroute
+  162  traceroute www.google.com
+  163  ifconfig
+  166  ifconfig -a
+  167  man ifconfig
+  168  netstat
+  169  netstat - -n
+  170  netstat -r -n
+  171  route -n
+  172  netstat -r
+  173  clear
+  174  sudo apt-get update
+  175  sudo get-apt upgrade
+  176  sudo apt-get  upgrade
+  177  sudo apt-get update
+  178  sudo apt-get upgrade
+  179  clear
+  180  sudo apt-get update
+  181  sudo apt-get upgrade
+  182  clear
+  183  git
+  184  cccccccccclear
+  185  clear
+  186  git init
+  187  mkdir gitproject
+  188  cd gitproject
+  189  git init
+  191  clear
+  192  rmdir gitproject
+  193  cd ..
+  194  rmdir gitproject
+  195  rm gitproject
+  196  rm -r gitproject
+  197  cd Desktop
+  198  mkdir gitproject
+  199  cd gitproject
+  200  git init
+  201  touch project1.txt
+  202  cat >>project1.txt
+  204  git add .
+   mkdir project
+  268  cd project
+  269  vi add.c
+  270  gcc add.c
+  271  ./a.out
+  272  git config --global user.name "Tadasha540"
+  273  git config --global user.email "soumyamishra270@gmail.com"
+  274  ls
+  275  git init
+  276  git add .
+  277  git commit -m "commit"
+  278  git remote add origin https://github.com/Tadasha540/Demo.git
+  279  git branch
+  280  git commit -m "commit'
+  281  git commit -m "commit"
+  282  git push -u origin master
+  283  clear
+  284  history
