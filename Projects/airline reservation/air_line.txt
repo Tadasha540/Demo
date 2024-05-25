@@ -1,0 +1,4 @@
+source:bbsr destination:delhi date:22 available:4 Prices:1000-2500
+source:bangalore destination:delhi date:1 available:12 prices:1500-2000
+source:chennai destination:bbsr date:20 available:20 prices:3000-4000
+source:delhi destination:bangalore date:24 available:2 Prices:3300-2000
